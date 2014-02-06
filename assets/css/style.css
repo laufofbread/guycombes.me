@@ -36,12 +36,18 @@ body {
 }
 
 /*credit styles*/
+.credit-container {
+    margin-bottom:      30px;
+}
 .credits, a {
     font-family:        'universal_accreditationRg';
-    font-size:          37px;
+    font-size:          32px;
     color:              #f2e4bd;
     text-align:         center;
     text-decoration:    none;
+    margin:             0px;
+    height:             15px;
+    margin-top:         12px;
 }
 
 .small-credit {
@@ -50,5 +56,11 @@ body {
 
 a:hover {
     color:              #e2a817;
+}
+
+.me-images {
+    height:             28px;
+    vertical-align:     top;
+    padding-top:        1px;
 }
 
