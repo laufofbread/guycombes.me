@@ -1,7 +1,13 @@
+html {
+    overflow-x:         hidden;
+}
+
 body {
     background-color:   #3f1414;
     background-image:   url('../img/tache-tile.png');
     position:           relative;
+    margin:             0px;
+    overflow-x:           hidden;
 }
 
 /*Styles for video. Attempt to make it fluid*/
@@ -32,7 +38,10 @@ body {
     left:               50%;
     margin-left:        -900px;
     padding-top:        15px;
-    overflow-x:           hidden;
+}
+
+.see-me-live {
+    margin-right:       0px;
 }
 
 /*credit styles*/
