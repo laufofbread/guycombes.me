@@ -1,12 +1,10 @@
 body {
     background-color:   #3f1414;
     background-image:   url('../img/tache-tile.png');
-
-    overflow:           hidden;
+    position:           relative;
 }
 
 /*Styles for video. Attempt to make it fluid*/
-
 .video-wrapper {
 	position:           relative;
     padding-bottom:     56.25%;
@@ -26,7 +24,7 @@ body {
     margin-top:         190px;
 }
 
-
+/*remember to fix overflow bug*/
 .logo {
     width:              1800px;
     height:             160px;
@@ -34,4 +32,23 @@ body {
     left:               50%;
     margin-left:        -900px;
     padding-top:        15px;
+    overflow-x:           hidden;
 }
+
+/*credit styles*/
+.credits, a {
+    font-family:        'universal_accreditationRg';
+    font-size:          37px;
+    color:              #f2e4bd;
+    text-align:         center;
+    text-decoration:    none;
+}
+
+.small-credit {
+    font-size:          22px;
+}
+
+a:hover {
+    color:              #e2a817;
+}
+
