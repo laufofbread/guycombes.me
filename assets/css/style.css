@@ -7,27 +7,12 @@ body {
     background-image:   url('../img/tache-tile.png');
     position:           relative;
     margin:             0px;
-    overflow-x:           hidden;
+    overflow-x:         hidden;
 }
 
-/*Styles for video. Attempt to make it fluid*/
 .video-wrapper {
-	position:           relative;
-    padding-bottom:     56.25%;
-    padding-top:        0px;
-    height:             0;
-    
-    margin-left:        auto;
-    margin-right:       auto;
-
-}
-.video-wrapper iframe {
-	position:           absolute;
-    top:                0;
-    left:               20%;
-	width:              60%;
-	height:             60%;
-    margin-top:         190px;
+    margin-top:         185px;
+    width:              66%;
 }
 
 /*remember to fix overflow bug*/
@@ -41,12 +26,13 @@ body {
 }
 
 .see-me-live {
-    margin-right:       0px;
+    float:              right;
 }
 
 /*credit styles*/
 .credit-container {
     margin-bottom:      30px;
+    clear:              both;
 }
 .credits, a {
     font-family:        'universal_accreditationRg';
