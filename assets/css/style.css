@@ -11,26 +11,28 @@ body {
 }
 
 .video-wrapper {
-    margin-top:         185px;
-    width:              66%;
+    width:              65%;
+    margin-left:        auto;
+    margin-right:       auto;
 }
 
-/*remember to fix overflow bug*/
+.header-container {
+    position:           relative;
+    height:             200px;
+    width:              100%;
+}
 .logo {
     width:              1800px;
     height:             160px;
     position:           absolute;
     left:               50%;
     margin-left:        -900px;
-    padding-top:        15px;
-}
-
-.see-me-live {
-    float:              right;
+    padding-top:        20px;
 }
 
 /*credit styles*/
 .credit-container {
+    margin-top:         25px;
     margin-bottom:      30px;
     clear:              both;
 }
